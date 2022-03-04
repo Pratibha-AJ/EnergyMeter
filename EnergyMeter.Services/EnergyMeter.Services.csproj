@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ChilkatDnCore" Version="9.5.0.89" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EnergyMeter.DTO\EnergyMeter.DTO.csproj" />
+    <ProjectReference Include="..\EnergyMeter.Repository\EnergyMeter.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
